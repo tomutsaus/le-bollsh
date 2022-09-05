@@ -1,0 +1,13 @@
+theSeason = ""
+numMonth = 0
+numMonth = int(input("Enter a month"))
+if numMonth == 12:
+    theSeason = "Winter"
+elif numMonth >= 9:
+    theSeason = "Autumn"
+elif numMonth >=6:
+    theSeason = "Summer"
+elif numMonth >=3:
+    theSeason = "Spring"
+else: theSeason = "Winter"
+print ("The season is",theSeason)
